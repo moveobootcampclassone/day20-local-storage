@@ -64,9 +64,14 @@ li span {
   cursor: pointer;
 }
 
-li span.completed {
+.completed {
   text-decoration: line-through;
   color: #ccc;
+}
+
+.not-completed {
+  text-decoration: underline;
+  background-color: aquamarine;
 }
 
 button[type="button"] {
